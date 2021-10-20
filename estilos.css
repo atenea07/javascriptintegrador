@@ -1,0 +1,183 @@
+nav{
+    background-color:#292929;
+    width: 900px; 
+    height: 50px;
+    margin:auto;  
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.foto, .imagen{
+    width: 900px;
+    height: 400px;
+    margin: auto;  
+}
+
+
+.card-body1{
+    display: grid;
+    align-items: flex-end;
+    color: white;
+    padding-right: 35px;
+    padding-top: 150px;
+}
+
+button, .botonera{
+    display:flex;
+    flex-direction: row;
+    justify-content: right;    
+}
+
+.btn{
+    border: white 1px solid;
+    color: wheat;
+}
+
+#btn1{
+    border:green 1px solid;
+    background-color: green;
+
+}
+
+.card-title1{
+    font-size: 25px;
+    text-align: right;
+}
+
+.card-text1{
+    font-size: 15px;
+    text-align: right;
+}
+
+.text{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.conoce{
+    font-size: 12px;
+    color: grey;
+}
+
+.ora{
+    font-size: 25px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;    
+}
+
+.card{  
+    display: grid; 
+    width: 200px;
+}
+
+.steve, .bill, .ada{ 
+    width: 200px;
+    height: 200px;
+}
+
+span, .badge {
+    width: 70px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.card-title{
+    font-size: 18px;
+    margin: 10px;
+}
+
+.card-text{
+    font-size: 11px;
+    margin: 10px;
+    margin-top: 0;
+}
+
+.imagen2{
+    padding-top: 30px;
+    display: flex;
+    margin: auto;
+    width: 900px;
+}
+
+#hono{
+    height: 350px;
+    margin: auto;  
+    display: grid;
+}
+
+.imagen3{
+    background-color: #292929;
+    height: 350px;
+    font-size: 15px;
+    color: white;
+    padding: 25px;
+}
+
+.card-title3{
+    font-size: 20px;
+}
+
+.card-text3{
+    font-size: 10px;
+}
+
+.conv{
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px;
+    color: grey;
+}
+
+.conv1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.anotate{
+    text-align: center;
+    font-size: 12px;
+}
+
+.nomb{
+    width: 550px;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    color: grey;
+}
+
+.charla{
+    width: 550px;
+    font-size: 12px;
+    align-items: center;
+    margin: auto;
+    border-radius: 30px;
+    color: grey;
+}
+
+#enviar{
+    background-color:#9acd32;
+    color: white;
+}
+
+footer{    
+    background-color:#003366;
+    width: 900px; 
+    height: 60px;
+    margin:auto;  
+    color: white;
+    margin-top: 20px;   
+}
+
+.pie p{
+    display:inline-block;   
+    font-size: 12px;
+    padding: 25px;
+    
+}

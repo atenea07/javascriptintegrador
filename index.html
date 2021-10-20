@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Trabajo integrador Javascript</title>
+</head>
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">        
+        <div class="container">
+          <div>
+           <img src="imagenes/codoacodo.png" alt="codo a codo" width="100px"></a>
+            <a class="navbar-brand" href="#">Conf Bs.As.</a>
+          </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>        
+        <div id="barra">
+        <div class="navbar-nav">
+            <a class="nav-link active" href="#">La conferencia</a>
+            <a class="nav-link " href="#">Los oradores</a>
+            <a class="nav-link ">El lugar y la fecha</a>
+            <a class="nav-link ">Conviértete en orador</a>
+            <a class="nav-link active text-success" href="#">Comprar ticket</a>  
+        </div>
+        </div>
+       </div>
+    </nav>     
+    <div class="foto">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img class="imagen" src="imagenes/ba1.jpg" alt="bsab">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body1">
+            <h5 class="card-title1">Conf Bs As</h5>
+            <p class="card-text1">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Van a cinocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+            <div class="botonera">
+              <button class="btn" type="button">Quiero ser Orador</button>
+              <button id="btn1" class="btn btn-primary" type="button">Comprar Tickets</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</header>
+<body>
+  <div class="text">
+    <p class="conoce">CONOCE A LOS</p>
+    <p class="ora"><b>ORADORES</b></p>
+  </div> 
+
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img class="steve" src="imagenes/stevejs.jpg" alt="steve">
+        <div class="card">
+          <div class="badge">
+          <span class="badge bg-warning text-dark">Javascript</span>
+          <span  class="badge bg-primary">React</span>
+        </div>
+            <h5 class="card-title"><b>Steve Jobs</b></h5>
+            <p class="card-text"> This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img class="bill" src="imagenes/billjs.jpg"  alt="bill">
+        <div class="card">
+          <div class="badge">
+          <span class="badge bg-warning text-dark">Javascript</span>
+          <span class="badge bg-primary">React</span>
+        </div>
+            <h5 class="card-title"><b>Bill Gates</b></h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img class="ada" src="imagenes/adajs.jpeg" alt="ada">
+        <div class="card">
+          <div class="badge">        
+          <span class="badge bg-secondary">Negocios</span>
+          <span class="badge bg-danger">Startups</span>
+        </div>
+            <h5 class="card-title"><b>Ada Lovelace</b></h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+        </div>
+      </div>
+  </div> 
+</div>
+<div class="imagen2">
+  <div class="row g-0">
+    <div class="col-md-6">
+      <img id="hono" src="imagenes/honolulu.jpg" class="img-fluid rounded-start" alt="hono">
+    </div>
+    <div class="col-md-6">
+      <div class="imagen3">
+        <h5 class="card-title3">Bs As - Octubre</h5>
+        <p class="card-text3">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la mas sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad condado consolidada que cubre toda la ciudad (aproximadamente 600 km<sup>2</sup> de superficie).</p>
+        <button id="bot3" class="btn" type="button">Conocé más</button>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div>
+    <p class="conv">CONVIÉRTETE EN UN </p>
+    <p class="conv1"><b>ORADOR</b></p>
+  </div>
+  <div>
+    <p class="anotate">Anótate como orador para dar una charla ignite.Cuéntanos de qué quieres hablar!</p>
+  </div>
+ <div class="nomb">
+  <div class="row g-2">
+    <div class="col-md">
+      <div class="form-floating1">
+        <input type="text" class="form-control" value="Nombre">
+      </div>
+    </div>    
+    <div class="col-md">
+      <div class="form-floating1">
+        <input type="text" class="form-control" value="Apellido">
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="charla">
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"> Sobre que quieres hablar?</textarea>
+    <p class="incl">Recuerda incluir un título para tu charla</p>
+  </div>
+  <div>
+    <div class="d-grid gap-2 col-5 mx-auto">
+      <button id="enviar" class="btn btn-primary" type="button">Enviar</button>
+    </div>
+  </div>
+</body>
+<footer>
+  <div class="pie">
+    <p>Preguntas frecuentes</p>
+    <p>Contáctanos</p>
+    <p>Prensa</p>
+    <p>Conferencias</p>
+    <p>Términos y condiciones</p>
+    <p>Privacidad</p>
+    <p>Estudíantes</p>
+  </div>
+</footer>
+</html>
